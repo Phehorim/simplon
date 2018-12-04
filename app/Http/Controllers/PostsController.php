@@ -8,7 +8,7 @@ use App\Post;
 class PostsController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the Post.
      *
      * @return \Illuminate\Http\Response
      */
@@ -19,7 +19,7 @@ class PostsController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new Post.
      *
      * @return \Illuminate\Http\Response
      */
@@ -29,7 +29,7 @@ class PostsController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created Post in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -52,7 +52,7 @@ class PostsController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified Post.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -64,7 +64,7 @@ class PostsController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified Post.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -76,7 +76,7 @@ class PostsController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified Post in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -100,7 +100,7 @@ class PostsController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified Post from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
