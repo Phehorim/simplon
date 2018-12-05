@@ -11,10 +11,10 @@
 |
 */
 
-Route::permanentRedirect('/', '/posts');
+Route::permanentRedirect('/', '/home');
 
 Auth::routes();
 
-Route::get('/admin', 'AdminController@index')->name('admin');
+Route::get('/home', 'HomeController@index');
 
 Route::resource('posts', 'PostsController');

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <a href="/admin" class="btn btn-secondary">retour</a>
-    <h1>Modifier l'article</h1>
+    <a href="/posts/{{$post->id}}" class="btn btn-secondary">retour</a>
+    <h1 class="my-5">Modifier l'article</h1>
     <form action="/posts/{{$post->id}}" method="post">
         @method('PUT')
         @csrf

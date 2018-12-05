@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1 class="my-5">Articles</h1>
-    <a href="/posts/create" class="btn btn-primary mb-5">Créer un article</a>
+    <h1 class="my-5">Simplon Laravel Challenge</h1>
     @if (count($posts) > 0)
         <div class="list-group">
             @foreach ($posts as $post)
